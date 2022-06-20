@@ -17,6 +17,9 @@ Fuentes de la página
     Textos
         https://fonts.google.com/specimen/Lexend+Deca
         Estilo 400
+
+        font-family: 'Big Shoulders Display', cursive;
+        font-family: 'Lexend Deca', sans-serif;
 */
 
 *{
@@ -24,7 +27,7 @@ Fuentes de la página
 }
 
 body {
-  /* background-color: #333; */
+    /* background-color: #333; */
 }
 
 .columns-container{ 
@@ -35,15 +38,25 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    border: 1px solid black;
+    
 }
 
 .column{
     width: 33.33%;
-    
     border: 1px solid black;
 }
 
+.first-column{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.second-column{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-column{
+    background-color: hsl(179, 100%, 13%);
+}
 
 
 
